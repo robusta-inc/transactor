@@ -1,10 +1,2 @@
-config.php
-admin/config.php
-
-!index.html
-
-download
-image/cache/*.jpg
-image/cache/data/*
-system/cache
-system/logs
+target/
+*.iml
