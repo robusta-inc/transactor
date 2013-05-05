@@ -1,6 +1,11 @@
 <h2>transactor</h2>
 A transactor implementation that manages connection and SQL objects and removes the need for boiler plate code.
 
+<h3>Sample</h3>
+<pre>
+transactor.queryForInt("Select count(*) from EMPLOYEEE");
+</pre>
+
 <h3>dependencies</h3>
 <h4>production</h4>
 <td><pre>com.google.guava:guava:14.0</pre></td>
